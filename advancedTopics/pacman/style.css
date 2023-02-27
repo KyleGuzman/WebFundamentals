@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px red dotted; */
+}
+
+body{
+    background-color: black;
+}
+
+div{
+    margin-bottom: -2px;
+}
+
+.row div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.brick {
+    background-color: blue;
+}
+
+.coin{
+    background: url(/advancedTopics/pacman/icons/coin.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cherry{
+    background: url(/advancedTopics/pacman/icons/cherry.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#pacman{
+    background: url(/advancedTopics/pacman/icons/pacman.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#pacwoman{
+    background: url(/advancedTopics/pacman/icons/pacwoman.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+#ghost{
+    background: url(/advancedTopics/pacman/icons/ghost.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.scores{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.scores h4{
+    color: white;
+}
+
+#score {
+    width: 30px;
+    border: 1px solid white;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: -2px -2px white;
+    margin-right: 80px;
+}
+
+#score2 {
+    width: 30px;
+    border: 1px solid white;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: -2px -2px white;
+}
